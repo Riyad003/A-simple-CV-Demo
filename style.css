@@ -1,0 +1,128 @@
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fixed CSS */
+body{
+    background-color: rgb(226, 221, 214);
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    max-width: 1224px;
+    background-color:#71beaf ;
+    margin: 0 auto;
+    padding: 18px;
+     
+}
+img{
+    max-width: 100%;
+}
+.clear-float {
+     
+     display: block;
+     clear: both;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: #243444;
+}
+.common-hr{
+    border: solid black 1.5px;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* Header Section */
+ 
+.profile-image{
+  
+ width: 120px;
+ height: 125px;
+ border: 1.8px solid  rgb(42, 36, 36);
+ border-radius: 50%;
+ float: left;
+
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+ 
+.header-contact p a{
+    text-decoration: none;
+    color: #34495e;
+    font-weight: bold;
+}
+.header-contact p a:hover{
+    color: tomato;
+}
+ 
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+/* Main Section */
+
+
+
+/* Personal Information */
+ 
+.content{
+    padding: 14px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+
+/* Education Section */
+.right-div1{
+    float: left;
+    width: 45%;
+}
+.right-div2{
+    float: right;
+    width: 45%;
+}
+
+
+/* Footer Section */
+ footer{
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+    padding: 22px;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon li a{
+    color: azure;
+    display: block;
+    padding: 6px;
+    font-size: 25px;
+}
+.fotter-bottom{
+    text-align: center;
+}
+footer p{
+    word-spacing:3.5px;
+    margin:8px 0;
+}
